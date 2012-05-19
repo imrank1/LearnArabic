@@ -31,16 +31,9 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
 		letterManager = [[LetterManager alloc]init];
-		// create and initialize a Label
-        //		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Let's Learn!" fontName:@"Marker Felt" fontSize:64];
         letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"testFont.fnt" ];
-		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
-        
-		// position the label on the center of the screen
 		letterLabel.position =  ccp( size.width /2 , size.height/2 );
-		
-		// add the label as a child to this Layer
 		[self addChild: letterLabel];
 	}
 	return self;
@@ -52,8 +45,6 @@
     location = [[CCDirector sharedDirector] convertToGL:location];
     touchBeganX = location.x;
     touchBeganY = location.y;
-    NSLog(@"Touch Began");
-
 }
 
 
@@ -64,21 +55,14 @@
     touchEndX = location.x;
     touchEndY = location.y;
     int diffX = touchEndX - touchBeganX;
-    NSLog(@"Touch Ended start x %d, end x %d, diff is %d",touchBeganX,touchEndX,diffX);
-
-    int diffY = touchEndY - touchBeganY;
         
     if (diffX > 5)
         {
-            NSLog(@"swipe right");
             [letterManager nextLetter];
-            // do something here
         }
         else if (diffX < -5)
         {
-            NSLog(@"swipe left");
             [letterManager previousLetter];
-            // do something else here
         }
 [self updateLetter];
 }
