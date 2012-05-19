@@ -33,7 +33,7 @@
 		letterManager = [[LetterManager alloc]init];
 		// create and initialize a Label
         //		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Let's Learn!" fontName:@"Marker Felt" fontSize:64];
-        letterLabel = [CCLabelBMFont labelWithString:@"First Scene!" fntFile:@"testFont.fnt" ];
+        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"testFont.fnt" ];
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
         
