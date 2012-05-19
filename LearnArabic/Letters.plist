@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Scenes</key>
+	<array>
+		<dict>
+			<key>soundFile</key>
+			<string>test.wav</string>
+			<key>letter</key>
+			<string>a</string>
+		</dict>
+		<dict>
+			<key>letter</key>
+			<string>b</string>
+			<key>soundFile</key>
+			<string>test1.wav</string>
+		</dict>
+        <dict>
+			<key>letter</key>
+			<string>c</string>
+			<key>soundFile</key>
+			<string>test1.wav</string>
+		</dict>
+        <dict>
+			<key>letter</key>
+			<string>c</string>
+			<key>soundFile</key>
+			<string>test1.wav</string>
+		</dict>
+        <dict>
+			<key>letter</key>
+			<string>d</string>
+			<key>soundFile</key>
+			<string>test1.wav</string>
+		</dict>
+        <dict>
+			<key>letter</key>
+			<string>e</string>
+			<key>soundFile</key>
+			<string>test1.wav</string>
+		</dict>
+	</array>
+
+</dict>
+</plist>
