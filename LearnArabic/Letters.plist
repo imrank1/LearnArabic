@@ -5,6 +5,8 @@
 	<key>Scenes</key>
 	<array>
 		<dict>
+			<key>sound</key>
+			<string>alif.mp3</string>
 			<key>backgroundImage</key>
 			<string>GreyBackgroundLarge.png</string>
 			<key>soundFile</key>
@@ -15,6 +17,8 @@
 			<string>ا</string>
 		</dict>
 		<dict>
+			<key>sound</key>
+			<string>alif.mp3</string>
 			<key>backgroundImage</key>
 			<string>BluishGreenBackgroundLarge.png</string>
 			<key>letter</key>

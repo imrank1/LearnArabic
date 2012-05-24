@@ -7,6 +7,9 @@
 //
 
 #import "LetterLayer.h"
+#import "SimpleAudioEngine.h"
+
+
 
 @implementation LetterLayer
 +(CCScene *) scene
@@ -24,6 +27,11 @@
 	return scene;
 }
 
+
+
+-(void)initializeSounds{
+    [[SimpleAudioEngine sharedEngine] preloadEffect:@"alif.mp3"];
+}
 // on "init" you need to initialize your instance
 -(id) init
 {
@@ -39,9 +47,11 @@
         backgroundImage.scale = 2;
 		letterLabel.position =  ccp( size.width /2 , size.height/2 );
         translationLabel.position = ccp(size.width/2,(size.height/2)-50);
+        
         [self addChild:backgroundImage z:0];
 		[self addChild: letterLabel];
         [self addChild:translationLabel];
+        [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
 	}
 	return self;
 }
@@ -90,9 +100,7 @@
     [self addChild:backgroundImage z:0];
     [self addChild:letterLabel];
     [self addChild:translationLabel];
-    
-    
-    
+    [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
 }
 
 // on "dealloc" you need to release all your retained objects

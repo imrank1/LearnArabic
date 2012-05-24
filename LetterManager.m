@@ -16,24 +16,19 @@
 }
 
 -(void)nextLetter{
-    NSLog(@"letters count is %d",letters.count);
-    NSLog(@"next letter");
     currentLetterIndex++;
     if(currentLetterIndex >= letters.count){
         currentLetterIndex=0;
     }
     currentLetter = [letters objectAtIndex:currentLetterIndex];
-    NSLog(@"Current letter is %@",[currentLetter objectForKey:@"letter"]);
 }
 
 -(void)previousLetter{
-    NSLog(@"previous letter");
     currentLetterIndex--;
     if(currentLetterIndex <= 0 ){
         currentLetterIndex = 0;
     }
     currentLetter = [letters objectAtIndex:currentLetterIndex];
-    NSLog(@"Current letter is %@",[currentLetter objectForKey:@"letter"]);
 }
 
 
