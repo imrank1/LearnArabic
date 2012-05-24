@@ -45,12 +45,10 @@
         CGSize size = [[CCDirector sharedDirector] winSize];
         backgroundImage.position = ccp(size.width/2,size.height/2);
         backgroundImage.scale = 2;
-		letterLabel.position =  ccp( size.width /2 , size.height/2 );
-        translationLabel.position = ccp(size.width/2,(size.height/2)-50);
-        
+		letterLabel.position =  ccp( size.width /2 , size.height/2 );        
         [self addChild:backgroundImage z:0];
 		[self addChild: letterLabel];
-        [self addChild:translationLabel];
+        [self animateTransliteration];
         [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
 	}
 	return self;
@@ -96,11 +94,18 @@
     backgroundImage.position = ccp(size.width/2,size.height/2);
     backgroundImage.scale = 2;
     letterLabel.position =  ccp( size.width /2 , size.height/2 );
-    translationLabel.position = ccp(size.width/2,(size.height/2)-50);
     [self addChild:backgroundImage z:0];
     [self addChild:letterLabel];
-    [self addChild:translationLabel];
+    [self animateTransliteration];
     [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
+}
+
+-(void)animateTransliteration{
+    CGSize size = [[CCDirector sharedDirector] winSize];
+    translationLabel.position = ccp(size.width/2,(size.height/2)-200);
+    [self addChild:translationLabel];
+    CGPoint targetPosition = ccp(size.width/2,(size.height/2)-50);
+    [translationLabel runAction:[CCMoveTo actionWithDuration:2.0 position:targetPosition]]; 
 }
 
 // on "dealloc" you need to release all your retained objects
