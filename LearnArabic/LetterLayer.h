@@ -15,6 +15,8 @@
     int touchEndX, touchEndY;
     LetterManager *letterManager;
     CCLabelBMFont *letterLabel;
+    CCLabelBMFont *translationLabel;
+    CCSprite    *backgroundImage;
 }
 @property LetterManager *letterManger;
 +(CCScene *) scene;

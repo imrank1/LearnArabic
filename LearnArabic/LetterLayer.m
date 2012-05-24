@@ -31,10 +31,17 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
 		letterManager = [[LetterManager alloc]init];
-        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"testFont.fnt" ];
-		CGSize size = [[CCDirector sharedDirector] winSize];
+        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"workingarabicyGlphy.fnt" ];
+        translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] fontName:@"Marker Felt" fontSize:64];
+        backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
+        CGSize size = [[CCDirector sharedDirector] winSize];
+        backgroundImage.position = ccp(size.width/2,size.height/2);
+        backgroundImage.scale = 2;
 		letterLabel.position =  ccp( size.width /2 , size.height/2 );
+        translationLabel.position = ccp(size.width/2,(size.height/2)-50);
+        [self addChild:backgroundImage z:0];
 		[self addChild: letterLabel];
+        [self addChild:translationLabel];
 	}
 	return self;
 }
@@ -57,23 +64,35 @@
     int diffX = touchEndX - touchBeganX;
         
     if (diffX > 5)
-        {
-            [letterManager nextLetter];
-        }
-        else if (diffX < -5)
-        {
-            [letterManager previousLetter];
-        }
-[self updateLetter];
+    {
+        [letterManager nextLetter];
+    }
+    else if (diffX < -5)
+    {
+        [letterManager previousLetter];
+    }
+    [self updateLetter];
 }
 
 
 -(void)updateLetter{
-    [self removeChild:letterLabel cleanup:NO];
-    letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"testFont.fnt" ];
+    [self removeChild:backgroundImage cleanup:YES];
+    [self removeChild:letterLabel cleanup:YES];
+    [self removeChild:translationLabel cleanup:YES];
+    letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"workingarabicyGlphy.fnt" ];
+    translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] fontName:@"Marker Felt" fontSize:64];
+    backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
     CGSize size = [[CCDirector sharedDirector] winSize];
+    backgroundImage.position = ccp(size.width/2,size.height/2);
+    backgroundImage.scale = 2;
     letterLabel.position =  ccp( size.width /2 , size.height/2 );
+    translationLabel.position = ccp(size.width/2,(size.height/2)-50);
+    [self addChild:backgroundImage z:0];
     [self addChild:letterLabel];
+    [self addChild:translationLabel];
+    
+    
+    
 }
 
 // on "dealloc" you need to release all your retained objects

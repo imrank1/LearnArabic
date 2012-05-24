@@ -38,7 +38,7 @@
 
 
 -(NSString *) stringForProp:(NSString *)property{
-    return [currentLetter objectForKey:@"letter"];
+    return [currentLetter objectForKey:property];
 }
 
 

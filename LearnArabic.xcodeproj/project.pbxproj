@@ -127,6 +127,10 @@
 		FA3B6CDE15683191006F3ED0 /* LetterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6CDD15683191006F3ED0 /* LetterLayer.m */; };
 		FA3B6CE415683FD6006F3ED0 /* Letters.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3B6CE315683FD6006F3ED0 /* Letters.plist */; };
 		FA3B6CE71568423C006F3ED0 /* LetterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3B6CE61568423B006F3ED0 /* LetterManager.m */; };
+		FA3B6CEE15692EA6006F3ED0 /* workingarabicyGlphy.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FA3B6CEC15692EA6006F3ED0 /* workingarabicyGlphy.fnt */; };
+		FA3B6CEF15692EA6006F3ED0 /* workingarabicyGlphy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B6CED15692EA6006F3ED0 /* workingarabicyGlphy.png */; };
+		FA924F01156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */; };
+		FA924F04156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -372,6 +376,10 @@
 		FA3B6CE315683FD6006F3ED0 /* Letters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Letters.plist; sourceTree = "<group>"; };
 		FA3B6CE51568423B006F3ED0 /* LetterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LetterManager.h; path = ../LetterManager.h; sourceTree = "<group>"; };
 		FA3B6CE61568423B006F3ED0 /* LetterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LetterManager.m; path = ../LetterManager.m; sourceTree = "<group>"; };
+		FA3B6CEC15692EA6006F3ED0 /* workingarabicyGlphy.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = workingarabicyGlphy.fnt; sourceTree = "<group>"; };
+		FA3B6CED15692EA6006F3ED0 /* workingarabicyGlphy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workingarabicyGlphy.png; sourceTree = "<group>"; };
+		FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
+		FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluishGreenBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +436,8 @@
 		FA3B6B7415682197006F3ED0 /* LearnArabic */ = {
 			isa = PBXGroup;
 			children = (
+				FA3B6CEC15692EA6006F3ED0 /* workingarabicyGlphy.fnt */,
+				FA3B6CED15692EA6006F3ED0 /* workingarabicyGlphy.png */,
 				FA3B6CE51568423B006F3ED0 /* LetterManager.h */,
 				FA3B6CE61568423B006F3ED0 /* LetterManager.m */,
 				FA3B6CDC15683191006F3ED0 /* LetterLayer.h */,
@@ -450,6 +460,8 @@
 		FA3B6B7515682197006F3ED0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */,
+				FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */,
 				FA3B6B7615682197006F3ED0 /* Default.png */,
 				FA3B6B7815682197006F3ED0 /* fps_images.png */,
 				FA3B6B7A15682197006F3ED0 /* Icon-72.png */,
@@ -839,6 +851,10 @@
 				FA3B6CD915682B21006F3ED0 /* testFont.fnt in Resources */,
 				FA3B6CDB15682C5B006F3ED0 /* testFont.png in Resources */,
 				FA3B6CE415683FD6006F3ED0 /* Letters.plist in Resources */,
+				FA3B6CEE15692EA6006F3ED0 /* workingarabicyGlphy.fnt in Resources */,
+				FA3B6CEF15692EA6006F3ED0 /* workingarabicyGlphy.png in Resources */,
+				FA924F01156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png in Resources */,
+				FA924F04156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,8 +1017,10 @@
 				GCC_PREFIX_HEADER = LearnArabic/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = LearnArabic/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1016,8 +1034,10 @@
 				GCC_PREFIX_HEADER = LearnArabic/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = LearnArabic/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1042,6 +1062,7 @@
 				FA3B6CD71568219C006F3ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

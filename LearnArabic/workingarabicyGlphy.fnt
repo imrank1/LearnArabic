@@ -1,0 +1,13 @@
+info face="KFGQPCUthmanTahaNaskh" size=64 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=107 base=72 scaleW=256 scaleH=128 pages=1 packed=0
+page id=0 file="workingarabicyGlphy.png"
+chars count=9
+char id=1582 x=2 y=2 width=44 height=64 xoffset=1 yoffset=37 xadvance=40 page=0 chnl=0 letter="خ"
+char id=1580 x=48 y=2 width=44 height=52 xoffset=1 yoffset=49 xadvance=40 page=0 chnl=0 letter="ج"
+char id=1581 x=94 y=2 width=44 height=52 xoffset=1 yoffset=49 xadvance=40 page=0 chnl=0 letter="ح"
+char id=1575 x=140 y=2 width=11 height=45 xoffset=2 yoffset=30 xadvance=13 page=0 chnl=0 letter="ا"
+char id=1576 x=153 y=2 width=48 height=39 xoffset=1 yoffset=49 xadvance=48 page=0 chnl=0 letter="ب"
+char id=1579 x=203 y=2 width=48 height=38 xoffset=1 yoffset=37 xadvance=48 page=0 chnl=0 letter="ث"
+char id=1578 x=2 y=68 width=48 height=32 xoffset=1 yoffset=43 xadvance=48 page=0 chnl=0 letter="ت"
+char id=1583 x=52 y=68 width=23 height=29 xoffset=1 yoffset=47 xadvance=24 page=0 chnl=0 letter="د"
+char id=32 x=77 y=68 width=0 height=0 xoffset=0 yoffset=192 xadvance=13 page=0 chnl=0 letter="space"
