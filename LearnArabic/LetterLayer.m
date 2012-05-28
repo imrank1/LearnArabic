@@ -40,7 +40,7 @@
 	if( (self=[super init])) {
 		letterManager = [[LetterManager alloc]init];
         letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"workingarabicyGlphy.fnt" ];
-        translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] fontName:@"Marker Felt" fontSize:64];
+      //  translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] //fontName:@"Marker Felt" fontSize:64];
         backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
         CGSize size = [[CCDirector sharedDirector] winSize];
         backgroundImage.position = ccp(size.width/2,size.height/2);
@@ -88,7 +88,7 @@
     [self removeChild:letterLabel cleanup:YES];
     [self removeChild:translationLabel cleanup:YES];
     letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"workingarabicyGlphy.fnt" ];
-    translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] fontName:@"Marker Felt" fontSize:64];
+//    translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] fontName://@"Marker Felt" fontSize:64];
     backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
     CGSize size = [[CCDirector sharedDirector] winSize];
     backgroundImage.position = ccp(size.width/2,size.height/2);
@@ -100,12 +100,37 @@
     [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
 }
 
+
+
 -(void)animateTransliteration{
+    //clear out and remove any letters
+    [self removeChildByTag:1 cleanup:YES];
+
+                                        
+    //rest the array
+    transliterationLettersLabelArray = nil;
+    transliterationLettersLabelArray = [NSMutableArray array];
+
+    //get the next transliteration letter and fade it in after the previous
+    NSString *transliterationLetters = [letterManager stringForProp:@"transliteration"];
     CGSize size = [[CCDirector sharedDirector] winSize];
-    translationLabel.position = ccp(size.width/2,(size.height/2)-200);
-    [self addChild:translationLabel];
-    CGPoint targetPosition = ccp(size.width/2,(size.height/2)-50);
-    [translationLabel runAction:[CCMoveTo actionWithDuration:2.0 position:targetPosition]]; 
+    int xPosition = (size.width/2 )-30;
+    for (int index = 0 ;index < [transliterationLetters length];index++){
+        unichar c = [transliterationLetters characterAtIndex:index];
+        NSString *currentCharString = [NSString stringWithFormat: @"%C", c];
+        CCLabelTTF *currentLetter = [CCLabelTTF labelWithString:currentCharString fontName:@"Marker Felt" fontSize:64];
+        currentLetter.position = ccp(xPosition,(size.height/2)-50);
+        [currentLetter setTag:1];
+       [self addChild:currentLetter];
+        currentLetter.opacity = 0;
+        float timeDelay = .5*index;
+        id fadein = [CCFadeIn actionWithDuration:0.5];
+        id delayTime = [CCDelayTime actionWithDuration:timeDelay];
+        [currentLetter runAction:[CCSequence actions:delayTime,fadein,nil]];
+        [transliterationLettersLabelArray addObject:currentLetter];
+        xPosition +=20;
+    }
+
 }
 
 // on "dealloc" you need to release all your retained objects
