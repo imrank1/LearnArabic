@@ -5,6 +5,8 @@
 	<key>Scenes</key>
 	<array>
 		<dict>
+			<key>transliterationPosOffset</key>
+			<integer>-50</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
@@ -17,6 +19,8 @@
 			<string>ا</string>
 		</dict>
 		<dict>
+			<key>transliterationPosOffset</key>
+			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>

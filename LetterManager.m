@@ -37,6 +37,10 @@
 }
 
 
+-(NSNumber *) numberForProp:(NSString *)property {
+    return [currentLetter objectForKey:property];
+}
+
 
 
 

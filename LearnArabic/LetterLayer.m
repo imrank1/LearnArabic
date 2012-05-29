@@ -39,8 +39,7 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
 		letterManager = [[LetterManager alloc]init];
-        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"workingarabicyGlphy.fnt" ];
-      //  translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] //fontName:@"Marker Felt" fontSize:64];
+        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"largeArabic2.fnt" ];
         backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
         CGSize size = [[CCDirector sharedDirector] winSize];
         backgroundImage.position = ccp(size.width/2,size.height/2);
@@ -87,8 +86,7 @@
     [self removeChild:backgroundImage cleanup:YES];
     [self removeChild:letterLabel cleanup:YES];
     [self removeChild:translationLabel cleanup:YES];
-    letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"workingarabicyGlphy.fnt" ];
-//    translationLabel = [CCLabelTTF labelWithString:[letterManager stringForProp:@"transliteration"] fontName://@"Marker Felt" fontSize:64];
+    letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"largeArabic2.fnt" ];
     backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
     CGSize size = [[CCDirector sharedDirector] winSize];
     backgroundImage.position = ccp(size.width/2,size.height/2);
@@ -114,12 +112,14 @@
     //get the next transliteration letter and fade it in after the previous
     NSString *transliterationLetters = [letterManager stringForProp:@"transliteration"];
     CGSize size = [[CCDirector sharedDirector] winSize];
-    int xPosition = (size.width/2 )-30;
+    int xPosition = ((size.width/2 )-30) + [letterManager numberForProp:@"transliterationPosOffset"].intValue;
     for (int index = 0 ;index < [transliterationLetters length];index++){
         unichar c = [transliterationLetters characterAtIndex:index];
         NSString *currentCharString = [NSString stringWithFormat: @"%C", c];
-        CCLabelTTF *currentLetter = [CCLabelTTF labelWithString:currentCharString fontName:@"Marker Felt" fontSize:64];
-        currentLetter.position = ccp(xPosition,(size.height/2)-50);
+        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"cartoony.fnt" ];
+        
+//        CCLabelTTF *currentLetter = [CCLabelTTF labelWithString:currentCharString fontName:@"Marker Felt" fontSize:64];
+        currentLetter.position = ccp(xPosition,(size.height/2)-210);
         [currentLetter setTag:1];
        [self addChild:currentLetter];
         currentLetter.opacity = 0;
@@ -128,7 +128,7 @@
         id delayTime = [CCDelayTime actionWithDuration:timeDelay];
         [currentLetter runAction:[CCSequence actions:delayTime,fadein,nil]];
         [transliterationLettersLabelArray addObject:currentLetter];
-        xPosition +=20;
+        xPosition +=75;
     }
 
 }

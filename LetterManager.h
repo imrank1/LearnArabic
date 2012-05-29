@@ -20,5 +20,6 @@
 -(void)nextLetter;
 -(void)previousLetter;
 -(NSString *) stringForProp:(NSString *)property;
+-(NSNumber *) numberForProp:(NSString *)property;
 -(BOOL)hasProp:(NSString *)prop;
 @end
