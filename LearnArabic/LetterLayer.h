@@ -14,9 +14,10 @@
     int touchBeganY;
     int touchEndX, touchEndY;
     LetterManager *letterManager;
-    CCLabelBMFont *letterLabel;
     CCLabelBMFont *translationLabel;
     CCSprite    *backgroundImage;
+    CCLabelBMFont *letterLabel;
+
     NSMutableArray *transliterationLettersLabelArray;
 
 }
