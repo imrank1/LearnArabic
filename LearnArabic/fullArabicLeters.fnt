@@ -1,0 +1,39 @@
+info face="Neirizi" size=174 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=392 base=221 scaleW=1024 scaleH=1024 pages=1 packed=0
+page id=0 file="fullArabicLeters.png"
+chars count=29
+char id=1594 x=2 y=2 width=146 height=259 xoffset=9 yoffset=65 xadvance=136 page=0 chnl=0 letter="غ"
+char id=1582 x=150 y=2 width=134 height=230 xoffset=12 yoffset=94 xadvance=140 page=0 chnl=0 letter="خ"
+char id=1604 x=286 y=2 width=111 height=210 xoffset=5 yoffset=60 xadvance=114 page=0 chnl=0 letter="ل"
+char id=1588 x=399 y=2 width=175 height=201 xoffset=7 yoffset=96 xadvance=183 page=0 chnl=0 letter="ش"
+char id=1593 x=576 y=2 width=146 height=196 xoffset=9 yoffset=128 xadvance=136 page=0 chnl=0 letter="ع"
+char id=1605 x=724 y=2 width=71 height=196 xoffset=10 yoffset=151 xadvance=83 page=0 chnl=0 letter="م"
+char id=1590 x=797 y=2 width=214 height=186 xoffset=21 yoffset=103 xadvance=234 page=0 chnl=0 letter="ض"
+char id=1602 x=2 y=263 width=123 height=175 xoffset=10 yoffset=100 xadvance=131 page=0 chnl=0 letter="ق"
+char id=1580 x=127 y=263 width=134 height=171 xoffset=10 yoffset=153 xadvance=139 page=0 chnl=0 letter="ج"
+char id=1581 x=263 y=263 width=133 height=171 xoffset=10 yoffset=153 xadvance=140 page=0 chnl=0 letter="ح"
+char id=1610 x=398 y=263 width=150 height=170 xoffset=10 yoffset=133 xadvance=162 page=0 chnl=0 letter="ي"
+char id=1591 x=550 y=263 width=146 height=168 xoffset=7 yoffset=59 xadvance=152 page=0 chnl=0 letter="ط"
+char id=1592 x=698 y=263 width=146 height=168 xoffset=7 yoffset=59 xadvance=152 page=0 chnl=0 letter="ظ"
+char id=1575 x=846 y=263 width=24 height=166 xoffset=12 yoffset=60 xadvance=39 page=0 chnl=0 letter="ا"
+char id=1603 x=872 y=263 width=129 height=164 xoffset=8 yoffset=60 xadvance=140 page=0 chnl=0 letter="ك"
+char id=1586 x=2 y=440 width=98 height=147 xoffset=-8 yoffset=123 xadvance=88 page=0 chnl=0 letter="ز"
+char id=1584 x=102 y=440 width=84 height=139 xoffset=8 yoffset=86 xadvance=90 page=0 chnl=0 letter="ذ"
+char id=1601 x=188 y=440 width=176 height=132 xoffset=8 yoffset=92 xadvance=185 page=0 chnl=0 letter="ف"
+char id=1606 x=366 y=440 width=115 height=132 xoffset=10 yoffset=144 xadvance=125 page=0 chnl=0 letter="ن"
+char id=1579 x=483 y=440 width=170 height=131 xoffset=9 yoffset=101 xadvance=179 page=0 chnl=0 letter="ث"
+char id=1589 x=655 y=440 width=214 height=127 xoffset=7 yoffset=162 xadvance=219 page=0 chnl=0 letter="ص"
+char id=1587 x=2 y=589 width=175 height=125 xoffset=7 yoffset=173 xadvance=183 page=0 chnl=0 letter="س"
+char id=1576 x=179 y=589 width=170 height=121 xoffset=9 yoffset=158 xadvance=179 page=0 chnl=0 letter="ب"
+char id=1608 x=351 y=589 width=103 height=110 xoffset=-13 yoffset=160 xadvance=90 page=0 chnl=0 letter="و"
+char id=1578 x=456 y=589 width=170 height=109 xoffset=9 yoffset=123 xadvance=179 page=0 chnl=0 letter="ت"
+char id=1585 x=628 y=589 width=97 height=98 xoffset=-13 yoffset=172 xadvance=84 page=0 chnl=0 letter="ر"
+char id=1583 x=727 y=589 width=84 height=87 xoffset=8 yoffset=138 xadvance=90 page=0 chnl=0 letter="د"
+char id=1607 x=813 y=589 width=53 height=71 xoffset=9 yoffset=154 xadvance=65 page=0 chnl=0 letter="ه"
+char id=32 x=868 y=589 width=0 height=0 xoffset=0 yoffset=341 xadvance=12 page=0 chnl=0 letter="space"
+kernings count=5
+kerning first=1610 second=1585 amount=16
+kerning first=1575 second=32 amount=-10
+kerning first=1585 second=1602 amount=15
+kerning first=1585 second=1606 amount=22
+kerning first=32 second=1575 amount=-10

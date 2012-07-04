@@ -22,7 +22,8 @@
 	layer.isTouchEnabled = TRUE;
 	// add layer as a child to scene
 	[scene addChild: layer];
-	
+
+   
 	// return the scene
 	return scene;
 }
@@ -39,13 +40,23 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
 		letterManager = [[LetterManager alloc]init];
-        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"largeArabic2.fnt" ];
+        letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"fullArabicLeters.fnt" ];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
+         @"arabicAppImages_default.plist"];
+        CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode 
+                                          batchNodeWithFile:@"arabicImages_default.png"];
+        [self addChild:spriteSheet];
         backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
         CGSize size = [[CCDirector sharedDirector] winSize];
         backgroundImage.position = ccp(size.width/2,size.height/2);
-        backgroundImage.scale = 2;
-		letterLabel.position =  ccp( size.width /2 , size.height/2 );        
+        //backgroundImage.scale = -2;
+        //backgroundImage.rotation =90;
+       
+        picture =  [CCSprite spriteWithSpriteFrameName:[letterManager stringForProp:@"picture"]];
+        picture.position = ccp(size.width/2,size.height/2 + 150 );
+		letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue);        
         [self addChild:backgroundImage z:0];
+        [self addChild:picture z:1];
 		[self addChild: letterLabel];
         [self animateTransliteration];
         [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
@@ -86,15 +97,22 @@
     [self removeChild:backgroundImage cleanup:YES];
     [self removeChild:letterLabel cleanup:YES];
     [self removeChild:translationLabel cleanup:YES];
-    letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"largeArabic2.fnt" ];
+    [self removeChild:picture cleanup:YES];
+    letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"fullArabicLeters.fnt" ];
     backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
+    picture =  [CCSprite spriteWithSpriteFrameName:[letterManager stringForProp:@"picture"]];
+
     CGSize size = [[CCDirector sharedDirector] winSize];
     backgroundImage.position = ccp(size.width/2,size.height/2);
-    backgroundImage.scale = 2;
-    letterLabel.position =  ccp( size.width /2 , size.height/2 );
+  //  backgroundImage.scale = -2;
+  //  backgroundImage.rotation =90;
+    letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue );
+    picture.position = ccp(size.width/2,size.height/2 + 150 );
+
     [self addChild:backgroundImage z:0];
     [self addChild:letterLabel];
     [self animateTransliteration];
+    [self addChild:picture];
     [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
 }
 
@@ -119,7 +137,7 @@
         CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"cartoony.fnt" ];
         
 //        CCLabelTTF *currentLetter = [CCLabelTTF labelWithString:currentCharString fontName:@"Marker Felt" fontSize:64];
-        currentLetter.position = ccp(xPosition,(size.height/2)-210);
+        currentLetter.position = ccp(xPosition,(size.height/2)-250);
         [currentLetter setTag:1];
        [self addChild:currentLetter];
         currentLetter.opacity = 0;

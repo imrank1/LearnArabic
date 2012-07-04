@@ -17,6 +17,7 @@
     CCLabelBMFont *translationLabel;
     CCSprite    *backgroundImage;
     CCLabelBMFont *letterLabel;
+    CCSprite *picture;
 
     NSMutableArray *transliterationLettersLabelArray;
 
