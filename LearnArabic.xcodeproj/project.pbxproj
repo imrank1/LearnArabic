@@ -393,6 +393,9 @@
 		FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
 		FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluishGreenBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
 		FA924F05156DDEEA009C12CB /* alif.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alif.mp3; sourceTree = "<group>"; };
+		FAF52D0E15A4112400653B3E /* arabicAppImages_default.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arabicAppImages_default.plist; sourceTree = "<group>"; };
+		FAF52D0F15A4112400653B3E /* arabicAppImages_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arabicAppImages_default.png; sourceTree = "<group>"; };
+		FAF52D1015A4112400653B3E /* arabicAppImages_default.png.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = arabicAppImages_default.png.ccz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,6 +482,9 @@
 		FA3B6B7515682197006F3ED0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAF52D0E15A4112400653B3E /* arabicAppImages_default.plist */,
+				FAF52D0F15A4112400653B3E /* arabicAppImages_default.png */,
+				FAF52D1015A4112400653B3E /* arabicAppImages_default.png.ccz */,
 				FA924F05156DDEEA009C12CB /* alif.mp3 */,
 				FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */,
 				FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */,
