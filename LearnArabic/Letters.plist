@@ -12,8 +12,10 @@
             <key>pictureWordEnglish</key>
             <string>Thousand</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-140</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-60</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>-50</integer>
 			<key>sound</key>
 			<string>TestVoice.mp3</string>
@@ -35,7 +37,9 @@
             <string>Door</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-20</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>TestVoice.mp3</string>
@@ -50,14 +54,16 @@
 		</dict>
         <dict>
             <key>picture</key>
-			<string>oneThousand.png</string>
+			<string>berries.png</string>
             <key>pictureWord</key>
 			<string>Toot</string>
             <key>pictureWordEnglish</key>
             <string>Berries</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-70</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-30</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -79,7 +85,9 @@
             <string>Fox</string>
             <key>letterOffset</key>
             <integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-40</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -101,7 +109,9 @@
             <string>Jamal</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-60</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -123,7 +133,9 @@
             <string>Pigeon</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-20</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -144,9 +156,11 @@
             <key>pictureWordEnglish</key>
             <string>Fall/Autumn</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
-			<integer>20</integer>
+			<integer>-90</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-20</integer>
+			<key>transliterationPosOffsetY</key>
+			<integer>40</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
@@ -166,8 +180,10 @@
             <key>pictureWordEnglish</key>
             <string>Fall/Autumn</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-80</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-40</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -188,8 +204,10 @@
             <key>pictureWordEnglish</key>
             <string>Wolf</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-80</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-80</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -197,7 +215,7 @@
 			<string>green_clean.jpg</string>
 			<key>letter</key>
 			<string>ذ</string>
-			<key></key>
+			<key>transliteration</key>
 			<string>thaal</string>
 			<key>soundFile</key>
 			<string>test1.wav</string>
@@ -211,7 +229,9 @@
             <string>Thunder</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-60</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -233,7 +253,9 @@
             <string>Tooth</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-70</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -254,8 +276,10 @@
             <key>pictureWordEnglish</key>
             <string>Fall/Autumn</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-70</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-60</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -276,8 +300,10 @@
             <key>pictureWordEnglish</key>
             <string>Calendar</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-70</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-80</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -298,8 +324,10 @@
             <key>pictureWordEnglish</key>
             <string>Hard</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-80</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-45</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -320,8 +348,10 @@
             <key>pictureWordEnglish</key>
             <string>Frog</string>
             <key>letterOffset</key>
+			<integer>-60</integer>
+            <key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -342,8 +372,10 @@
             <key>pictureWordEnglish</key>
             <string>Taha</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-70</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-20</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -364,8 +396,10 @@
             <key>pictureWordEnglish</key>
             <string>Shadow</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-80</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-40</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -387,7 +421,9 @@
             <string>Eyes</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-20</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -409,7 +445,9 @@
             <string>Clouds</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-65</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -431,7 +469,9 @@
             <string>Film</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-30</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -452,8 +492,10 @@
             <key>pictureWordEnglish</key>
             <string>Judge</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-85</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-45</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -474,8 +516,10 @@
             <key>pictureWordEnglish</key>
             <string>Cave</string>
             <key>letterOffset</key>
+			<integer>-90</integer>
+            <key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -496,8 +540,10 @@
             <key>pictureWordEnglish</key>
             <string>Lemon</string>
             <key>letterOffset</key>
+			<integer>-80</integer>
+            <key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -519,7 +565,9 @@
             <string>Miriam</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-50</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -540,8 +588,10 @@
             <key>pictureWordEnglish</key>
             <string>River</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-60</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-45</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -563,7 +613,9 @@
             <string>Crescent</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>0</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -584,8 +636,10 @@
             <key>pictureWordEnglish</key>
             <string>Boy</string>
             <key>letterOffset</key>
-			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+			<integer>-60</integer>
+            <key>transliterationPosOffsetX</key>
+			<integer>-45</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>
@@ -607,7 +661,9 @@
             <string>Jasmin</string>
             <key>letterOffset</key>
 			<integer>-50</integer>
-			<key>transliterationPosOffset</key>
+            <key>transliterationPosOffsetX</key>
+			<integer>-30</integer>
+			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
 			<string>alif.mp3</string>

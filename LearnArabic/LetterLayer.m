@@ -54,6 +54,8 @@
        
         picture =  [CCSprite spriteWithSpriteFrameName:[letterManager stringForProp:@"picture"]];
         picture.position = ccp(size.width/2,size.height/2 + 150 );
+//        letterLabel.position =  ccp( size.width /2 , size.height/2  - 30);        
+
 		letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue);        
         [self addChild:backgroundImage z:0];
         [self addChild:picture z:1];
@@ -106,6 +108,8 @@
     backgroundImage.position = ccp(size.width/2,size.height/2);
   //  backgroundImage.scale = -2;
   //  backgroundImage.rotation =90;
+//    letterLabel.position =  ccp( size.width /2 , size.height/2 -70 );
+
     letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue );
     picture.position = ccp(size.width/2,size.height/2 + 150 );
 
@@ -130,13 +134,11 @@
     //get the next transliteration letter and fade it in after the previous
     NSString *transliterationLetters = [letterManager stringForProp:@"transliteration"];
     CGSize size = [[CCDirector sharedDirector] winSize];
-    int xPosition = ((size.width/2 )-30) + [letterManager numberForProp:@"transliterationPosOffset"].intValue;
+    int xPosition = ((size.width/2 )-30) + [letterManager numberForProp:@"transliterationPosOffsetX"].intValue;
     for (int index = 0 ;index < [transliterationLetters length];index++){
         unichar c = [transliterationLetters characterAtIndex:index];
         NSString *currentCharString = [NSString stringWithFormat: @"%C", c];
-        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"cartoony.fnt" ];
-        
-//        CCLabelTTF *currentLetter = [CCLabelTTF labelWithString:currentCharString fontName:@"Marker Felt" fontSize:64];
+        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"casualFont.fnt" ];        
         currentLetter.position = ccp(xPosition,(size.height/2)-250);
         [currentLetter setTag:1];
        [self addChild:currentLetter];
