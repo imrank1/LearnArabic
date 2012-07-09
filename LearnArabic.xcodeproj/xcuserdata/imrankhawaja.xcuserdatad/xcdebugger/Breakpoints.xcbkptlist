@@ -60,7 +60,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "LearnArabic/MainScreen.m"
-         timestampString = "359954697.697584"
+         timestampString = "363327281.451014"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "36"
@@ -73,13 +73,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "LearnArabic/MainScreen.m"
-         timestampString = "359954753.318325"
+         timestampString = "363327281.451014"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "57"
-         endingLineNumber = "57"
-         landmarkName = "-startLetters:"
-         landmarkType = "5">
+         startingLineNumber = "59"
+         endingLineNumber = "59"
+         landmarkName = "@implementation MainScreen"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
