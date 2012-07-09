@@ -174,11 +174,11 @@
 		</dict>
         <dict>
             <key>picture</key>
-			<string>autumnTree.png</string>
+			<string>pucket.png</string>
             <key>pictureWord</key>
-			<string>Khareef</string>
+			<string>Dalu</string>
             <key>pictureWordEnglish</key>
-            <string>Fall/Autumn</string>
+            <string>Puck</string>
             <key>letterOffset</key>
 			<integer>-80</integer>
             <key>transliterationPosOffsetX</key>
@@ -270,11 +270,11 @@
 		</dict>
         <dict> 
             <key>picture</key>
-			<string>autumnTree.png</string>
+			<string>giraffe.png</string>
             <key>pictureWord</key>
-			<string>Khareef</string>
+			<string>Zarafa</string>
             <key>pictureWordEnglish</key>
-            <string>Fall/Autumn</string>
+            <string>Giraffe</string>
             <key>letterOffset</key>
 			<integer>-70</integer>
             <key>transliterationPosOffsetX</key>

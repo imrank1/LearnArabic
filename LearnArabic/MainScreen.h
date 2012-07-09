@@ -10,7 +10,8 @@
 
 @interface MainScreen : CCLayer{
     CCSprite    *backgroundImage;
-    CCLabelBMFont *titleLabel;
+//    CCLabelBMFont *titleLabel;
+    CCLabelTTF *titleLabel;
 }
 +(CCScene *) scene;
 

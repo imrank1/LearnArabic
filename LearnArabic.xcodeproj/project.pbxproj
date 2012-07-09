@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1B0EC915AA7CDE00C47184 /* arabicApp_default.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA1B0EC715AA7CDE00C47184 /* arabicApp_default.plist */; };
+		FA1B0ECA15AA7CDE00C47184 /* arabicApp_default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1B0EC815AA7CDE00C47184 /* arabicApp_default.png */; };
+		FA1B0ECD15AA7FC400C47184 /* manualCartoony.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FA1B0ECB15AA7FC400C47184 /* manualCartoony.fnt */; };
+		FA1B0ECE15AA7FC400C47184 /* manualCartoony.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1B0ECC15AA7FC400C47184 /* manualCartoony.png */; };
 		FA3B6B6515682197006F3ED0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3B6B6415682197006F3ED0 /* QuartzCore.framework */; };
 		FA3B6B6715682197006F3ED0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3B6B6615682197006F3ED0 /* OpenGLES.framework */; };
 		FA3B6B6915682197006F3ED0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3B6B6815682197006F3ED0 /* OpenAL.framework */; };
@@ -145,6 +149,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1B0EC715AA7CDE00C47184 /* arabicApp_default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = arabicApp_default.plist; sourceTree = "<group>"; };
+		FA1B0EC815AA7CDE00C47184 /* arabicApp_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arabicApp_default.png; sourceTree = "<group>"; };
+		FA1B0ECB15AA7FC400C47184 /* manualCartoony.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manualCartoony.fnt; sourceTree = "<group>"; };
+		FA1B0ECC15AA7FC400C47184 /* manualCartoony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manualCartoony.png; sourceTree = "<group>"; };
 		FA3B6B6015682197006F3ED0 /* LearnArabic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnArabic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3B6B6415682197006F3ED0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FA3B6B6615682197006F3ED0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -398,9 +406,6 @@
 		FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
 		FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluishGreenBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
 		FA924F05156DDEEA009C12CB /* alif.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alif.mp3; sourceTree = "<group>"; };
-		FAF52D0E15A4112400653B3E /* arabicAppImages_default.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = arabicAppImages_default.plist; sourceTree = "<group>"; };
-		FAF52D0F15A4112400653B3E /* arabicAppImages_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arabicAppImages_default.png; sourceTree = "<group>"; };
-		FAF52D1015A4112400653B3E /* arabicAppImages_default.png.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = arabicAppImages_default.png.ccz; sourceTree = "<group>"; };
 		FAF52D1215A517F700653B3E /* green_clean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_clean.jpg; sourceTree = "<group>"; };
 		FAF52D1415A5195D00653B3E /* chalkArabicApp.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chalkArabicApp.fnt; sourceTree = "<group>"; };
 		FAF52D1515A5195D00653B3E /* chalkArabicApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chalkArabicApp.png; sourceTree = "<group>"; };
@@ -492,14 +497,15 @@
 		FA3B6B7515682197006F3ED0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA1B0ECB15AA7FC400C47184 /* manualCartoony.fnt */,
+				FA1B0ECC15AA7FC400C47184 /* manualCartoony.png */,
+				FA1B0EC715AA7CDE00C47184 /* arabicApp_default.plist */,
+				FA1B0EC815AA7CDE00C47184 /* arabicApp_default.png */,
 				FAF52D1815A51AFF00653B3E /* casualFont.fnt */,
 				FAF52D1915A51AFF00653B3E /* casualFont.png */,
 				FAF52D1415A5195D00653B3E /* chalkArabicApp.fnt */,
 				FAF52D1515A5195D00653B3E /* chalkArabicApp.png */,
 				FAF52D1215A517F700653B3E /* green_clean.jpg */,
-				FAF52D0E15A4112400653B3E /* arabicAppImages_default.plist */,
-				FAF52D0F15A4112400653B3E /* arabicAppImages_default.png */,
-				FAF52D1015A4112400653B3E /* arabicAppImages_default.png.ccz */,
 				FA924F05156DDEEA009C12CB /* alif.mp3 */,
 				FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */,
 				FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */,
@@ -906,6 +912,10 @@
 				FAF52D1715A5195D00653B3E /* chalkArabicApp.png in Resources */,
 				FAF52D1A15A51AFF00653B3E /* casualFont.fnt in Resources */,
 				FAF52D1B15A51AFF00653B3E /* casualFont.png in Resources */,
+				FA1B0EC915AA7CDE00C47184 /* arabicApp_default.plist in Resources */,
+				FA1B0ECA15AA7CDE00C47184 /* arabicApp_default.png in Resources */,
+				FA1B0ECD15AA7FC400C47184 /* manualCartoony.fnt in Resources */,
+				FA1B0ECE15AA7FC400C47184 /* manualCartoony.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

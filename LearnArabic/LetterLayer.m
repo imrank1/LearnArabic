@@ -42,9 +42,9 @@
 		letterManager = [[LetterManager alloc]init];
         letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"fullArabicLeters.fnt" ];
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
-         @"arabicAppImages_default.plist"];
+         @"arabicApp_default.plist"];
         CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode 
-                                          batchNodeWithFile:@"arabicImages_default.png"];
+                                          batchNodeWithFile:@"arabicApp_default.png"];
         [self addChild:spriteSheet];
         backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
         CGSize size = [[CCDirector sharedDirector] winSize];
@@ -138,7 +138,7 @@
     for (int index = 0 ;index < [transliterationLetters length];index++){
         unichar c = [transliterationLetters characterAtIndex:index];
         NSString *currentCharString = [NSString stringWithFormat: @"%C", c];
-        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"casualFont.fnt" ];        
+        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"manualCartoony.fnt" ];        
         currentLetter.position = ccp(xPosition,(size.height/2)-250);
         [currentLetter setTag:1];
        [self addChild:currentLetter];
