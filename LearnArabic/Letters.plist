@@ -20,7 +20,7 @@
 			<key>sound</key>
 			<string>TestVoice.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>soundFile</key>
 			<string>test.wav</string>
 			<key>transliteration</key>
@@ -44,7 +44,7 @@
 			<key>sound</key>
 			<string>TestVoice.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ب</string>
 			<key>transliteration</key>
@@ -68,7 +68,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ت</string>
 			<key>transliteration</key>
@@ -92,7 +92,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ث</string>
 			<key>transliteration</key>
@@ -116,7 +116,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ج</string>
 			<key>transliteration</key>
@@ -140,7 +140,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ح</string>
 			<key>transliteration</key>
@@ -164,7 +164,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>خ</string>
 			<key>transliteration</key>
@@ -188,7 +188,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>د</string>
 			<key>transliteration</key>
@@ -212,7 +212,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ذ</string>
 			<key>transliteration</key>
@@ -236,7 +236,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ر</string>
 			<key>transliteration</key>
@@ -260,7 +260,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>س</string>
 			<key>transliteration</key>
@@ -284,7 +284,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ز</string>
 			<key>transliteration</key>
@@ -308,7 +308,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ش</string>
 			<key>transliteration</key>
@@ -332,7 +332,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ص</string>
 			<key>transliteration</key>
@@ -356,7 +356,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ض</string>
 			<key>transliteration</key>
@@ -380,7 +380,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ط</string>
 			<key>transliteration</key>
@@ -404,7 +404,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ظ</string>
 			<key>transliteration</key>
@@ -428,7 +428,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ع</string>
 			<key>transliteration</key>
@@ -452,7 +452,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>غ</string>
 			<key>transliteration</key>
@@ -476,7 +476,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ف</string>
 			<key>transliteration</key>
@@ -500,7 +500,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ق</string>
 			<key>transliteration</key>
@@ -524,7 +524,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ك</string>
 			<key>transliteration</key>
@@ -548,7 +548,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ل</string>
 			<key>transliteration</key>
@@ -572,7 +572,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>م</string>
 			<key>transliteration</key>
@@ -596,7 +596,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ن</string>
 			<key>transliteration</key>
@@ -620,7 +620,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ه</string>
 			<key>transliteration</key>
@@ -644,7 +644,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>و</string>
 			<key>transliteration</key>
@@ -668,7 +668,7 @@
 			<key>sound</key>
 			<string>alif.mp3</string>
 			<key>backgroundImage</key>
-			<string>green_clean.jpg</string>
+			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>ي</string>
 			<key>transliteration</key>

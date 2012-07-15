@@ -15,6 +15,8 @@
     return self;
 }
 
+
+
 -(void)nextLetter{
     currentLetterIndex++;
     if(currentLetterIndex >= letters.count){

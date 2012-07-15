@@ -58,7 +58,7 @@
 
 		letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue);        
         [self addChild:backgroundImage z:0];
-        [self addChild:picture z:1];
+        [self addChild:picture];
 		[self addChild: letterLabel];
         [self animateTransliteration];
         [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
@@ -68,8 +68,11 @@
 
 -(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     UITouch *touch = [touches anyObject];
+    
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
+    
+      
     touchBeganX = location.x;
     touchBeganY = location.y;
 }
@@ -79,19 +82,28 @@
     UITouch *touch = [touches anyObject];
     CGPoint location = [touch locationInView:[touch view]];
     location = [[CCDirector sharedDirector] convertToGL:location];
-    touchEndX = location.x;
-    touchEndY = location.y;
-    int diffX = touchEndX - touchBeganX;
+    CGSize size = [[CCDirector sharedDirector] winSize];
+
+    if (location.y > size.height/2 ) {
+        id scaleout=[CCScaleBy actionWithDuration:.5f scale:2.0f ];
+        id scalein= [CCScaleBy actionWithDuration:.5f scale:.5f ];
+        id scalceActions = [CCSequence actions:scaleout,scalein, nil];
+		[picture runAction:scalceActions];
+    }else{
+        touchEndX = location.x;
+        touchEndY = location.y;
+        int diffX = touchEndX - touchBeganX;
         
-    if (diffX > 5)
-    {
-        [letterManager nextLetter];
-    }
-    else if (diffX < -5)
-    {
-        [letterManager previousLetter];
-    }
-    [self updateLetter];
+        if (diffX > 5)
+        {
+            [letterManager nextLetter];
+        }
+        else if (diffX < -5)
+        {
+            [letterManager previousLetter];
+        }
+        [self updateLetter];
+    }  
 }
 
 
@@ -138,7 +150,7 @@
     for (int index = 0 ;index < [transliterationLetters length];index++){
         unichar c = [transliterationLetters characterAtIndex:index];
         NSString *currentCharString = [NSString stringWithFormat: @"%C", c];
-        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"manualCartoony.fnt" ];        
+        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"DoodlyCustom.fnt" ];        
         currentLetter.position = ccp(xPosition,(size.height/2)-250);
         [currentLetter setTag:1];
        [self addChild:currentLetter];

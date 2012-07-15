@@ -33,8 +33,8 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
-        backgroundImage = [CCSprite spriteWithFile:@"green_clean.jpg"];
-        titleLabel = [CCLabelBMFont labelWithString:@"Arabic!" fntFile:@"manualCartoony.fnt" ];
+        backgroundImage = [CCSprite spriteWithFile:@"cork.jpg"];
+        titleLabel = [CCLabelBMFont labelWithString:@"Arabic!" fntFile:@"DoodlyCustom.fnt" ];
         CGSize size = [[CCDirector sharedDirector] winSize];
         backgroundImage.position = ccp(size.width/2,size.height/2);
         [self addChild:backgroundImage z:0];
@@ -42,7 +42,7 @@
 		titleLabel.position =  ccp( size.width/2 , size.height/2 );        
 		[self addChild: titleLabel z:1];
         
-        CCLabelBMFont *startLetterLabel = [CCLabelBMFont labelWithString:@"Letters" fntFile:@"manualCartoony.fnt"];
+        CCLabelBMFont *startLetterLabel = [CCLabelBMFont labelWithString:@"Letters" fntFile:@"DoodlyCustom.fnt"];
 		CCMenuItemLabel *menuItem = [CCMenuItemLabel itemWithLabel:startLetterLabel target:self selector:@selector(startLetters:)];
         CCMenu *menu = [CCMenu menuWithItems: menuItem, nil];
         menu.position = ccp(size.width/2,size.height/2-200);
