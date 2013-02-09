@@ -134,14 +134,44 @@
 		FA3B6CEE15692EA6006F3ED0 /* workingarabicyGlphy.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FA3B6CEC15692EA6006F3ED0 /* workingarabicyGlphy.fnt */; };
 		FA3B6CEF15692EA6006F3ED0 /* workingarabicyGlphy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3B6CED15692EA6006F3ED0 /* workingarabicyGlphy.png */; };
 		FA53F9B115B22F3700CCDE97 /* cork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53F9B015B22F3700CCDE97 /* cork.jpg */; };
+		FA576F2816473539005C8931 /* ana-oneThousand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F0B16473539005C8931 /* ana-oneThousand.mp3 */; };
+		FA576F2916473539005C8931 /* baab-door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F0C16473539005C8931 /* baab-door.mp3 */; };
+		FA576F2A16473539005C8931 /* Dalu-pucket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F0D16473539005C8931 /* Dalu-pucket.mp3 */; };
+		FA576F2B16473539005C8931 /* duvdah-frogy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F0E16473539005C8931 /* duvdah-frogy.mp3 */; };
+		FA576F2C16473539005C8931 /* ein-eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F0F16473539005C8931 /* ein-eyes.mp3 */; };
+		FA576F2D16473539005C8931 /* film.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1016473539005C8931 /* film.mp3 */; };
+		FA576F2E16473539005C8931 /* giom-clouds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1116473539005C8931 /* giom-clouds.mp3 */; };
+		FA576F2F16473539005C8931 /* hamaam-pigeon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1216473539005C8931 /* hamaam-pigeon.mp3 */; };
+		FA576F3016473539005C8931 /* hilal-moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1316473539005C8931 /* hilal-moon.mp3 */; };
+		FA576F3116473539005C8931 /* jamal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1416473539005C8931 /* jamal.mp3 */; };
+		FA576F3216473539005C8931 /* ka-cave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1516473539005C8931 /* ka-cave.mp3 */; };
+		FA576F3316473539005C8931 /* khareef-automnTree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1616473539005C8931 /* khareef-automnTree.mp3 */; };
+		FA576F3416473539005C8931 /* laimon-lemon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1716473539005C8931 /* laimon-lemon.mp3 */; };
+		FA576F3516473539005C8931 /* miriam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1816473539005C8931 /* miriam.mp3 */; };
+		FA576F3616473539005C8931 /* nahir-river.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1916473539005C8931 /* nahir-river.mp3 */; };
+		FA576F3716473539005C8931 /* qadi-judge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1A16473539005C8931 /* qadi-judge.mp3 */; };
+		FA576F3816473539005C8931 /* raeb-thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1B16473539005C8931 /* raeb-thunder.mp3 */; };
+		FA576F3916473539005C8931 /* sab-hard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1C16473539005C8931 /* sab-hard.mp3 */; };
+		FA576F3A16473539005C8931 /* shaban-calendar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1D16473539005C8931 /* shaban-calendar.mp3 */; };
+		FA576F3B16473539005C8931 /* sin-tooth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1E16473539005C8931 /* sin-tooth.mp3 */; };
+		FA576F3C16473539005C8931 /* soundgen.rb in Resources */ = {isa = PBXBuildFile; fileRef = FA576F1F16473539005C8931 /* soundgen.rb */; };
+		FA576F3D16473539005C8931 /* taha-boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2016473539005C8931 /* taha-boy.mp3 */; };
+		FA576F3E16473539005C8931 /* thieb-wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2116473539005C8931 /* thieb-wolf.mp3 */; };
+		FA576F3F16473539005C8931 /* thill-shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2216473539005C8931 /* thill-shadow.mp3 */; };
+		FA576F4016473539005C8931 /* thulut-fox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2316473539005C8931 /* thulut-fox.mp3 */; };
+		FA576F4116473539005C8931 /* tuut-berries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2416473539005C8931 /* tuut-berries.mp3 */; };
+		FA576F4216473539005C8931 /* walad-baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2516473539005C8931 /* walad-baby.mp3 */; };
+		FA576F4316473539005C8931 /* yasmeen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2616473539005C8931 /* yasmeen.mp3 */; };
+		FA576F4416473539005C8931 /* zarafa-giraffe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA576F2716473539005C8931 /* zarafa-giraffe.mp3 */; };
 		FA835C9215745D78006C75F6 /* largeArabic2.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FA835C9015745D78006C75F6 /* largeArabic2.fnt */; };
 		FA835C9315745D78006C75F6 /* largeArabic2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA835C9115745D78006C75F6 /* largeArabic2.png */; };
 		FA835C9A157461EC006C75F6 /* cartoony.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FA835C98157461EC006C75F6 /* cartoony.fnt */; };
 		FA835C9B157461EC006C75F6 /* cartoony.png in Resources */ = {isa = PBXBuildFile; fileRef = FA835C99157461EC006C75F6 /* cartoony.png */; };
 		FA835C9E157471FE006C75F6 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FA835C9D157471FE006C75F6 /* MainScreen.m */; };
+		FA86B5AC15C35BC5002ED5E3 /* sketchit.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FA86B5AA15C35BC5002ED5E3 /* sketchit.fnt */; };
+		FA86B5AD15C35BC5002ED5E3 /* sketchit.png in Resources */ = {isa = PBXBuildFile; fileRef = FA86B5AB15C35BC5002ED5E3 /* sketchit.png */; };
 		FA924F01156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */; };
 		FA924F04156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */; };
-		FA924F06156DDEEA009C12CB /* alif.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA924F05156DDEEA009C12CB /* alif.mp3 */; };
 		FAAEFF0415B1198100D26AA5 /* frame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAEFF0315B1198100D26AA5 /* frame.jpg */; };
 		FAAEFF0815B11BF600D26AA5 /* DoodlyCustom.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAEFF0615B11BF600D26AA5 /* DoodlyCustom.png */; };
 		FAAEFF0915B11BF600D26AA5 /* DoodlyCustom.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FAAEFF0715B11BF600D26AA5 /* DoodlyCustom.fnt */; };
@@ -402,15 +432,45 @@
 		FA3B6CEC15692EA6006F3ED0 /* workingarabicyGlphy.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = workingarabicyGlphy.fnt; sourceTree = "<group>"; };
 		FA3B6CED15692EA6006F3ED0 /* workingarabicyGlphy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workingarabicyGlphy.png; sourceTree = "<group>"; };
 		FA53F9B015B22F3700CCDE97 /* cork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cork.jpg; sourceTree = "<group>"; };
+		FA576F0B16473539005C8931 /* ana-oneThousand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ana-oneThousand.mp3"; sourceTree = "<group>"; };
+		FA576F0C16473539005C8931 /* baab-door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "baab-door.mp3"; sourceTree = "<group>"; };
+		FA576F0D16473539005C8931 /* Dalu-pucket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dalu-pucket.mp3"; sourceTree = "<group>"; };
+		FA576F0E16473539005C8931 /* duvdah-frogy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "duvdah-frogy.mp3"; sourceTree = "<group>"; };
+		FA576F0F16473539005C8931 /* ein-eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ein-eyes.mp3"; sourceTree = "<group>"; };
+		FA576F1016473539005C8931 /* film.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = film.mp3; sourceTree = "<group>"; };
+		FA576F1116473539005C8931 /* giom-clouds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "giom-clouds.mp3"; sourceTree = "<group>"; };
+		FA576F1216473539005C8931 /* hamaam-pigeon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hamaam-pigeon.mp3"; sourceTree = "<group>"; };
+		FA576F1316473539005C8931 /* hilal-moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hilal-moon.mp3"; sourceTree = "<group>"; };
+		FA576F1416473539005C8931 /* jamal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jamal.mp3; sourceTree = "<group>"; };
+		FA576F1516473539005C8931 /* ka-cave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ka-cave.mp3"; sourceTree = "<group>"; };
+		FA576F1616473539005C8931 /* khareef-automnTree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "khareef-automnTree.mp3"; sourceTree = "<group>"; };
+		FA576F1716473539005C8931 /* laimon-lemon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laimon-lemon.mp3"; sourceTree = "<group>"; };
+		FA576F1816473539005C8931 /* miriam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miriam.mp3; sourceTree = "<group>"; };
+		FA576F1916473539005C8931 /* nahir-river.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nahir-river.mp3"; sourceTree = "<group>"; };
+		FA576F1A16473539005C8931 /* qadi-judge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "qadi-judge.mp3"; sourceTree = "<group>"; };
+		FA576F1B16473539005C8931 /* raeb-thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "raeb-thunder.mp3"; sourceTree = "<group>"; };
+		FA576F1C16473539005C8931 /* sab-hard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sab-hard.mp3"; sourceTree = "<group>"; };
+		FA576F1D16473539005C8931 /* shaban-calendar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shaban-calendar.mp3"; sourceTree = "<group>"; };
+		FA576F1E16473539005C8931 /* sin-tooth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sin-tooth.mp3"; sourceTree = "<group>"; };
+		FA576F1F16473539005C8931 /* soundgen.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = soundgen.rb; sourceTree = "<group>"; };
+		FA576F2016473539005C8931 /* taha-boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "taha-boy.mp3"; sourceTree = "<group>"; };
+		FA576F2116473539005C8931 /* thieb-wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thieb-wolf.mp3"; sourceTree = "<group>"; };
+		FA576F2216473539005C8931 /* thill-shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thill-shadow.mp3"; sourceTree = "<group>"; };
+		FA576F2316473539005C8931 /* thulut-fox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thulut-fox.mp3"; sourceTree = "<group>"; };
+		FA576F2416473539005C8931 /* tuut-berries.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tuut-berries.mp3"; sourceTree = "<group>"; };
+		FA576F2516473539005C8931 /* walad-baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "walad-baby.mp3"; sourceTree = "<group>"; };
+		FA576F2616473539005C8931 /* yasmeen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yasmeen.mp3; sourceTree = "<group>"; };
+		FA576F2716473539005C8931 /* zarafa-giraffe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "zarafa-giraffe.mp3"; sourceTree = "<group>"; };
 		FA835C9015745D78006C75F6 /* largeArabic2.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = largeArabic2.fnt; sourceTree = "<group>"; };
 		FA835C9115745D78006C75F6 /* largeArabic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeArabic2.png; sourceTree = "<group>"; };
 		FA835C98157461EC006C75F6 /* cartoony.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cartoony.fnt; sourceTree = "<group>"; };
 		FA835C99157461EC006C75F6 /* cartoony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartoony.png; sourceTree = "<group>"; };
 		FA835C9C157471FE006C75F6 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		FA835C9D157471FE006C75F6 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		FA86B5AA15C35BC5002ED5E3 /* sketchit.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sketchit.fnt; sourceTree = "<group>"; };
+		FA86B5AB15C35BC5002ED5E3 /* sketchit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sketchit.png; sourceTree = "<group>"; };
 		FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreyBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
 		FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BluishGreenBackgroundLarge-ipad.png"; sourceTree = "<group>"; };
-		FA924F05156DDEEA009C12CB /* alif.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alif.mp3; sourceTree = "<group>"; };
 		FAAEFF0315B1198100D26AA5 /* frame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frame.jpg; sourceTree = "<group>"; };
 		FAAEFF0615B11BF600D26AA5 /* DoodlyCustom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoodlyCustom.png; sourceTree = "<group>"; };
 		FAAEFF0715B11BF600D26AA5 /* DoodlyCustom.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DoodlyCustom.fnt; sourceTree = "<group>"; };
@@ -475,6 +535,8 @@
 		FA3B6B7415682197006F3ED0 /* LearnArabic */ = {
 			isa = PBXGroup;
 			children = (
+				FA86B5AA15C35BC5002ED5E3 /* sketchit.fnt */,
+				FA86B5AB15C35BC5002ED5E3 /* sketchit.png */,
 				FA835C98157461EC006C75F6 /* cartoony.fnt */,
 				FA835C99157461EC006C75F6 /* cartoony.png */,
 				FA835C9015745D78006C75F6 /* largeArabic2.fnt */,
@@ -505,6 +567,7 @@
 		FA3B6B7515682197006F3ED0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA576F0916473120005C8931 /* sounds */,
 				FA53F9B015B22F3700CCDE97 /* cork.jpg */,
 				FAAEFF0315B1198100D26AA5 /* frame.jpg */,
 				FA1B0ECB15AA7FC400C47184 /* manualCartoony.fnt */,
@@ -516,7 +579,6 @@
 				FAF52D1415A5195D00653B3E /* chalkArabicApp.fnt */,
 				FAF52D1515A5195D00653B3E /* chalkArabicApp.png */,
 				FAF52D1215A517F700653B3E /* green_clean.jpg */,
-				FA924F05156DDEEA009C12CB /* alif.mp3 */,
 				FA924F03156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png */,
 				FA924F00156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png */,
 				FA3B6B7615682197006F3ED0 /* Default.png */,
@@ -848,6 +910,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FA576F0916473120005C8931 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FA576F0B16473539005C8931 /* ana-oneThousand.mp3 */,
+				FA576F0C16473539005C8931 /* baab-door.mp3 */,
+				FA576F0D16473539005C8931 /* Dalu-pucket.mp3 */,
+				FA576F0E16473539005C8931 /* duvdah-frogy.mp3 */,
+				FA576F0F16473539005C8931 /* ein-eyes.mp3 */,
+				FA576F1016473539005C8931 /* film.mp3 */,
+				FA576F1116473539005C8931 /* giom-clouds.mp3 */,
+				FA576F1216473539005C8931 /* hamaam-pigeon.mp3 */,
+				FA576F1316473539005C8931 /* hilal-moon.mp3 */,
+				FA576F1416473539005C8931 /* jamal.mp3 */,
+				FA576F1516473539005C8931 /* ka-cave.mp3 */,
+				FA576F1616473539005C8931 /* khareef-automnTree.mp3 */,
+				FA576F1716473539005C8931 /* laimon-lemon.mp3 */,
+				FA576F1816473539005C8931 /* miriam.mp3 */,
+				FA576F1916473539005C8931 /* nahir-river.mp3 */,
+				FA576F1A16473539005C8931 /* qadi-judge.mp3 */,
+				FA576F1B16473539005C8931 /* raeb-thunder.mp3 */,
+				FA576F1C16473539005C8931 /* sab-hard.mp3 */,
+				FA576F1D16473539005C8931 /* shaban-calendar.mp3 */,
+				FA576F1E16473539005C8931 /* sin-tooth.mp3 */,
+				FA576F1F16473539005C8931 /* soundgen.rb */,
+				FA576F2016473539005C8931 /* taha-boy.mp3 */,
+				FA576F2116473539005C8931 /* thieb-wolf.mp3 */,
+				FA576F2216473539005C8931 /* thill-shadow.mp3 */,
+				FA576F2316473539005C8931 /* thulut-fox.mp3 */,
+				FA576F2416473539005C8931 /* tuut-berries.mp3 */,
+				FA576F2516473539005C8931 /* walad-baby.mp3 */,
+				FA576F2616473539005C8931 /* yasmeen.mp3 */,
+				FA576F2716473539005C8931 /* zarafa-giraffe.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -914,7 +1012,6 @@
 				FA3B6CEF15692EA6006F3ED0 /* workingarabicyGlphy.png in Resources */,
 				FA924F01156DCD1C009C12CB /* GreyBackgroundLarge-ipad.png in Resources */,
 				FA924F04156DD366009C12CB /* BluishGreenBackgroundLarge-ipad.png in Resources */,
-				FA924F06156DDEEA009C12CB /* alif.mp3 in Resources */,
 				FA835C9215745D78006C75F6 /* largeArabic2.fnt in Resources */,
 				FA835C9315745D78006C75F6 /* largeArabic2.png in Resources */,
 				FA835C9A157461EC006C75F6 /* cartoony.fnt in Resources */,
@@ -932,6 +1029,37 @@
 				FAAEFF0815B11BF600D26AA5 /* DoodlyCustom.png in Resources */,
 				FAAEFF0915B11BF600D26AA5 /* DoodlyCustom.fnt in Resources */,
 				FA53F9B115B22F3700CCDE97 /* cork.jpg in Resources */,
+				FA86B5AC15C35BC5002ED5E3 /* sketchit.fnt in Resources */,
+				FA86B5AD15C35BC5002ED5E3 /* sketchit.png in Resources */,
+				FA576F2816473539005C8931 /* ana-oneThousand.mp3 in Resources */,
+				FA576F2916473539005C8931 /* baab-door.mp3 in Resources */,
+				FA576F2A16473539005C8931 /* Dalu-pucket.mp3 in Resources */,
+				FA576F2B16473539005C8931 /* duvdah-frogy.mp3 in Resources */,
+				FA576F2C16473539005C8931 /* ein-eyes.mp3 in Resources */,
+				FA576F2D16473539005C8931 /* film.mp3 in Resources */,
+				FA576F2E16473539005C8931 /* giom-clouds.mp3 in Resources */,
+				FA576F2F16473539005C8931 /* hamaam-pigeon.mp3 in Resources */,
+				FA576F3016473539005C8931 /* hilal-moon.mp3 in Resources */,
+				FA576F3116473539005C8931 /* jamal.mp3 in Resources */,
+				FA576F3216473539005C8931 /* ka-cave.mp3 in Resources */,
+				FA576F3316473539005C8931 /* khareef-automnTree.mp3 in Resources */,
+				FA576F3416473539005C8931 /* laimon-lemon.mp3 in Resources */,
+				FA576F3516473539005C8931 /* miriam.mp3 in Resources */,
+				FA576F3616473539005C8931 /* nahir-river.mp3 in Resources */,
+				FA576F3716473539005C8931 /* qadi-judge.mp3 in Resources */,
+				FA576F3816473539005C8931 /* raeb-thunder.mp3 in Resources */,
+				FA576F3916473539005C8931 /* sab-hard.mp3 in Resources */,
+				FA576F3A16473539005C8931 /* shaban-calendar.mp3 in Resources */,
+				FA576F3B16473539005C8931 /* sin-tooth.mp3 in Resources */,
+				FA576F3C16473539005C8931 /* soundgen.rb in Resources */,
+				FA576F3D16473539005C8931 /* taha-boy.mp3 in Resources */,
+				FA576F3E16473539005C8931 /* thieb-wolf.mp3 in Resources */,
+				FA576F3F16473539005C8931 /* thill-shadow.mp3 in Resources */,
+				FA576F4016473539005C8931 /* thulut-fox.mp3 in Resources */,
+				FA576F4116473539005C8931 /* tuut-berries.mp3 in Resources */,
+				FA576F4216473539005C8931 /* walad-baby.mp3 in Resources */,
+				FA576F4316473539005C8931 /* yasmeen.mp3 in Resources */,
+				FA576F4416473539005C8931 /* zarafa-giraffe.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

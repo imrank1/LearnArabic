@@ -464,7 +464,7 @@
             <key>picture</key>
 			<string>film.png</string>
             <key>pictureWord</key>
-			<string></string>
+			<string>film</string>
             <key>pictureWordEnglish</key>
             <string>Film</string>
             <key>letterOffset</key>

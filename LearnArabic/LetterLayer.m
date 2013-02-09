@@ -39,6 +39,10 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
+        
+        
+        
+        
 		letterManager = [[LetterManager alloc]init];
         letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"fullArabicLeters.fnt" ];
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
@@ -150,7 +154,7 @@
     for (int index = 0 ;index < [transliterationLetters length];index++){
         unichar c = [transliterationLetters characterAtIndex:index];
         NSString *currentCharString = [NSString stringWithFormat: @"%C", c];
-        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"DoodlyCustom.fnt" ];        
+        CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"sketchit.fnt" ];        
         currentLetter.position = ccp(xPosition,(size.height/2)-250);
         [currentLetter setTag:1];
        [self addChild:currentLetter];
