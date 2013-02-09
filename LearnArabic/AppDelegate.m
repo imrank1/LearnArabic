@@ -13,6 +13,9 @@
 #import "LetterLayer.h"
 #import "MainScreen.h"
 #import "RootViewController.h"
+#import "SimpleAudioEngine.h"
+#import "CocosDenshion.h"
+#import "CDAudioManager.h"
 
 @implementation AppDelegate
 
@@ -109,9 +112,93 @@
 	
 	// Removes the startup flicker
 	[self removeStartupFlicker];
-	
+
+
+    [self preloadSounds];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [MainScreen scene]];
+}
+
+
+-(void) preloadSounds { 
+    //preload letters
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"ain.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"alif.caf"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"alif.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"baa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"characters"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"daad.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"daal.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"dzaal.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"faahOrTha.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"giin.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"haa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"haaa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"jiim.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"kaaf.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"khaa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"laam.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"miim.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"nuun.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"qaaf.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"raa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"saad.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"shiin.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"siin.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"soundgen.rb"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"ta.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"taa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"thaa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"vow.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"yaa.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"za.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"ziin.mp3"];
+    
+    //characters
+    [[SimpleAudioEngine sharedEngine] preloadEffect:"ana-oneThousand.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"baab-door.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"Dalu-pucket.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"duvdah-frogy.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"ein-eyes.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"film.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"giom-clouds.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"hamaam-pigeon.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"hilal-moon.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"jamal.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"ka-cave.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"khareef-automnTree.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"laimon-lemon.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"miriam.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"nahir-river.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"qadi-judge.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"raeb-thunder.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"sab-hard.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"shaban-calendar.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"sin-tooth.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"soundgen.rb"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"taha-boy.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"thieb-wolf.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"thill-shadow.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"thulut-fox.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"tuut-berries.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"walad-baby.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"yasmeen.mp3"];
+//    [[SimpleAudioEngine sharedEngine] preloadEffect:"zarafa-giraffe.mp3"];
+
 }
 
 
