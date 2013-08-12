@@ -7,7 +7,7 @@
 //
 
 #import "LetterLayer.h"
-#import "SimpleAudioEngine.h"
+//#import "SimpleAudioEngine.h"
 
 
 
@@ -31,7 +31,7 @@
 
 
 -(void)initializeSounds{
-    [[SimpleAudioEngine sharedEngine] preloadEffect:@"alif.mp3"];
+    //[[SimpleAudioEngine sharedEngine] preloadEffect:@"alif.mp3"];
 }
 // on "init" you need to initialize your instance
 -(id) init
@@ -65,7 +65,8 @@
         [self addChild:picture];
 		[self addChild: letterLabel];
         [self animateTransliteration];
-        [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
+        //[[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:[letterManager stringForProp:@"sound"]];
+        //[[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
 	}
 	return self;
 }
@@ -133,7 +134,7 @@
     [self addChild:letterLabel];
     [self animateTransliteration];
     [self addChild:picture];
-    [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
+    //[[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
 }
 
 
