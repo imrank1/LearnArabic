@@ -7,7 +7,7 @@
 //
 
 #import "LetterLayer.h"
-//#import "SimpleAudioEngine.h"
+#import "SimpleAudioEngine.h"
 
 
 
@@ -31,7 +31,7 @@
 
 
 -(void)initializeSounds{
-    //[[SimpleAudioEngine sharedEngine] preloadEffect:@"alif.mp3"];
+    [[SimpleAudioEngine sharedEngine] preloadEffect:@"arabicLetters.caf"];
 }
 // on "init" you need to initialize your instance
 -(id) init
@@ -39,10 +39,7 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
-        
-        
-        
-        
+
 		letterManager = [[LetterManager alloc]init];
         letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"fullArabicLeters.fnt" ];
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
@@ -65,8 +62,12 @@
         [self addChild:picture];
 		[self addChild: letterLabel];
         [self animateTransliteration];
-        //[[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:[letterManager stringForProp:@"sound"]];
-        //[[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
+        [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:[letterManager stringForProp:@"sound"]];
+        [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
+        [[SimpleAudioEngine sharedEngine] playEffect:currentCharacterSound];
+
+        currentCharacterSound = [letterManager stringForProp:@"soundFile"];
+        //[[SimpleAudioEngine sharedEngine] playEffect:@"arabicLetters.caf"];
 	}
 	return self;
 }
@@ -93,6 +94,7 @@
         id scaleout=[CCScaleBy actionWithDuration:.5f scale:2.0f ];
         id scalein= [CCScaleBy actionWithDuration:.5f scale:.5f ];
         id scalceActions = [CCSequence actions:scaleout,scalein, nil];
+        [[SimpleAudioEngine sharedEngine] playEffect:currentCharacterSound];
 		[picture runAction:scalceActions];
     }else{
         touchEndX = location.x;
@@ -134,6 +136,8 @@
     [self addChild:letterLabel];
     [self animateTransliteration];
     [self addChild:picture];
+    currentCharacterSound = [letterManager stringForProp:@"soundFile"];
+
     //[[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
 }
 

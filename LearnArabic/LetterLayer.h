@@ -18,6 +18,7 @@
     CCSprite    *backgroundImage;
     CCLabelBMFont *letterLabel;
     CCSprite *picture;
+    NSString *currentCharacterSound;
 
     NSMutableArray *transliterationLettersLabelArray;
 
