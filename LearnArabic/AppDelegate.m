@@ -13,7 +13,7 @@
 #import "LetterLayer.h"
 #import "MainScreen.h"
 #import "RootViewController.h"
-#import "SimpleAudioEngine.h"
+//#import "SimpleAudioEngine.h"
 #import "CocosDenshion.h"
 #import "CDAudioManager.h"
 
@@ -169,7 +169,7 @@
 //    [[SimpleAudioEngine sharedEngine] preloadEffect:"ziin.mp3"];
     
     //characters
-    [[SimpleAudioEngine sharedEngine] preloadEffect:"ana-oneThousand.mp3"];
+    //[[SimpleAudioEngine sharedEngine] preloadEffect:"ana-oneThousand.mp3"];
 //    [[SimpleAudioEngine sharedEngine] preloadEffect:"baab-door.mp3"];
 //    [[SimpleAudioEngine sharedEngine] preloadEffect:"Dalu-pucket.mp3"];
 //    [[SimpleAudioEngine sharedEngine] preloadEffect:"duvdah-frogy.mp3"];
