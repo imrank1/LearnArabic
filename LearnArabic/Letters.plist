@@ -5,44 +5,44 @@
 	<key>Scenes</key>
 	<array>
 		<dict>
-            <key>picture</key>
+			<key>picture</key>
 			<string>oneThousand.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Alif</string>
-            <key>pictureWordEnglish</key>
-            <string>Thousand</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Thousand</string>
+			<key>letterOffset</key>
 			<integer>-140</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-60</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>-50</integer>
 			<key>sound</key>
-			<string>TestVoice.mp3</string>
+			<string>alif.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>soundFile</key>
-			<string>test.wav</string>
+			<string>ana-oneThousand.caf</string>
 			<key>transliteration</key>
 			<string>alif</string>
 			<key>letter</key>
 			<string>ا</string>
 		</dict>
 		<dict>
-            <key>picture</key>
+			<key>picture</key>
 			<string>door.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Bab</string>
-            <key>pictureWordEnglish</key>
-            <string>Door</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Door</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-20</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>TestVoice.mp3</string>
+			<string>baa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -50,23 +50,23 @@
 			<key>transliteration</key>
 			<string>baa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>baab-door.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>berries.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Toot</string>
-            <key>pictureWordEnglish</key>
-            <string>Berries</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Berries</string>
+			<key>letterOffset</key>
 			<integer>-70</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-30</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>tuut-berries.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -74,23 +74,23 @@
 			<key>transliteration</key>
 			<string>taa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>taa.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>fox.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Thalab</string>
-            <key>pictureWordEnglish</key>
-            <string>Fox</string>
-            <key>letterOffset</key>
-            <integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>pictureWordEnglish</key>
+			<string>Fox</string>
+			<key>letterOffset</key>
+			<integer>-50</integer>
+			<key>transliterationPosOffsetX</key>
 			<integer>-40</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>thaa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -98,23 +98,23 @@
 			<key>transliteration</key>
 			<string>thaa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>thulut-fox.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>jamal.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Jamal</string>
-            <key>pictureWordEnglish</key>
-            <string>Jamal</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Jamal</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-60</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>jiim.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -122,23 +122,23 @@
 			<key>transliteration</key>
 			<string>jiim</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>jamal.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>pigeon.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Hammam</string>
-            <key>pictureWordEnglish</key>
-            <string>Pigeon</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Pigeon</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-20</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>haaa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -146,23 +146,23 @@
 			<key>transliteration</key>
 			<string>haa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>hamaam-pigeon.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>autumnTree.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Khareef</string>
-            <key>pictureWordEnglish</key>
-            <string>Fall/Autumn</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Fall/Autumn</string>
+			<key>letterOffset</key>
 			<integer>-90</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-20</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>40</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>khaa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -170,23 +170,23 @@
 			<key>transliteration</key>
 			<string>kha</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>khareef-automnTree.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>pucket.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Dalu</string>
-            <key>pictureWordEnglish</key>
-            <string>Puck</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Puck</string>
+			<key>letterOffset</key>
 			<integer>-80</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-40</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>daal.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -194,23 +194,23 @@
 			<key>transliteration</key>
 			<string>daal</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>Dalu-pucket.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>wolf.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Thieb</string>
-            <key>pictureWordEnglish</key>
-            <string>Wolf</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Wolf</string>
+			<key>letterOffset</key>
 			<integer>-80</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-80</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>dzaal.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -218,23 +218,23 @@
 			<key>transliteration</key>
 			<string>thaal</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>thieb-wolf.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>thunder.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Raeb</string>
-            <key>pictureWordEnglish</key>
-            <string>Thunder</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Thunder</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-60</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>raa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -242,23 +242,23 @@
 			<key>transliteration</key>
 			<string>raa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>raeb-thunder.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>tooth.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Sin</string>
-            <key>pictureWordEnglish</key>
-            <string>Tooth</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Tooth</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-70</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>siin.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -266,23 +266,23 @@
 			<key>transliteration</key>
 			<string>siin</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>sin-tooth.caf</string>
 		</dict>
-        <dict> 
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>giraffe.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Zarafa</string>
-            <key>pictureWordEnglish</key>
-            <string>Giraffe</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Giraffe</string>
+			<key>letterOffset</key>
 			<integer>-70</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-60</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>za.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -290,23 +290,23 @@
 			<key>transliteration</key>
 			<string>zaay</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>zarafa-giraffe.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>shaban.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Shaban</string>
-            <key>pictureWordEnglish</key>
-            <string>Calendar</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Calendar</string>
+			<key>letterOffset</key>
 			<integer>-70</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-80</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>shiin.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -314,23 +314,23 @@
 			<key>transliteration</key>
 			<string>shiin</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>shaban-calendar.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>girlHoldingStick.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Sab</string>
-            <key>pictureWordEnglish</key>
-            <string>Hard</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Hard</string>
+			<key>letterOffset</key>
 			<integer>-80</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-45</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>saad.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -338,23 +338,23 @@
 			<key>transliteration</key>
 			<string>saad</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>sab-hard.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>frogy.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Dufdah</string>
-            <key>pictureWordEnglish</key>
-            <string>Frog</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Frog</string>
+			<key>letterOffset</key>
 			<integer>-60</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>daad.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -362,23 +362,23 @@
 			<key>transliteration</key>
 			<string>daad</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>duvdah-frogy.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>BoyTaha.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Taha</string>
-            <key>pictureWordEnglish</key>
-            <string>Taha</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Taha</string>
+			<key>letterOffset</key>
 			<integer>-70</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-20</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>taa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -386,23 +386,23 @@
 			<key>transliteration</key>
 			<string>taa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>taha-boy.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>girlShadow.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Thill</string>
-            <key>pictureWordEnglish</key>
-            <string>Shadow</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Shadow</string>
+			<key>letterOffset</key>
 			<integer>-80</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-40</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>thaa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -410,23 +410,23 @@
 			<key>transliteration</key>
 			<string>thaa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
-		</dict>        
-        <dict>
-            <key>picture</key>
+			<string>thill-shadow.caf</string>
+		</dict>
+		<dict>
+			<key>picture</key>
 			<string>eyes.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Ein</string>
-            <key>pictureWordEnglish</key>
-            <string>Eyes</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Eyes</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-20</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>ain.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -434,47 +434,47 @@
 			<key>transliteration</key>
 			<string>ayn</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>ein-eyes.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>clouds.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Ghiom</string>
-            <key>pictureWordEnglish</key>
-            <string>Clouds</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Clouds</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-65</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>giin.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
 			<string>غ</string>
 			<key>transliteration</key>
-			<string>ahayn</string>
+			<string>ghiin</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>giom-clouds.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>film.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>film</string>
-            <key>pictureWordEnglish</key>
-            <string>Film</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Film</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-30</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>faahOrTha.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -482,23 +482,23 @@
 			<key>transliteration</key>
 			<string>faa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>film.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>judge.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Qadi</string>
-            <key>pictureWordEnglish</key>
-            <string>Judge</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Judge</string>
+			<key>letterOffset</key>
 			<integer>-85</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-45</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>qaaf.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -506,23 +506,23 @@
 			<key>transliteration</key>
 			<string>qaaf</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>qadi-judge.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>cave.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Kahf</string>
-            <key>pictureWordEnglish</key>
-            <string>Cave</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Cave</string>
+			<key>letterOffset</key>
 			<integer>-90</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>kaaf.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -530,23 +530,23 @@
 			<key>transliteration</key>
 			<string>kaaf</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>ka-cave.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>lemon.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Laimon</string>
-            <key>pictureWordEnglish</key>
-            <string>Lemon</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Lemon</string>
+			<key>letterOffset</key>
 			<integer>-80</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>laam.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -554,23 +554,23 @@
 			<key>transliteration</key>
 			<string>laam</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>laimon-lemon.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>miriam.png</string>
-            <key>pictureWord</key>
-			<string></string>
-            <key>pictureWordEnglish</key>
-            <string>Miriam</string>
-            <key>letterOffset</key>
+			<key>pictureWord</key>
+			<string>Miriam</string>
+			<key>pictureWordEnglish</key>
+			<string>Miriam</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-50</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>miim.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -578,23 +578,23 @@
 			<key>transliteration</key>
 			<string>miim</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>miriam.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>river.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Nahir</string>
-            <key>pictureWordEnglish</key>
-            <string>River</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>River</string>
+			<key>letterOffset</key>
 			<integer>-60</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-45</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>nuun.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -602,23 +602,23 @@
 			<key>transliteration</key>
 			<string>nuun</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>nahir-river.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>moon.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Hilal</string>
-            <key>pictureWordEnglish</key>
-            <string>Crescent</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Crescent</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>0</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>haa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -626,23 +626,23 @@
 			<key>transliteration</key>
 			<string>ha</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>hilal-moon.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>baby.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Walad</string>
-            <key>pictureWordEnglish</key>
-            <string>Boy</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Boy</string>
+			<key>letterOffset</key>
 			<integer>-60</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-45</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>vow.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -650,23 +650,23 @@
 			<key>transliteration</key>
 			<string>waaw</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>walad-baby.caf</string>
 		</dict>
-        <dict>
-            <key>picture</key>
+		<dict>
+			<key>picture</key>
 			<string>princess.png</string>
-            <key>pictureWord</key>
+			<key>pictureWord</key>
 			<string>Yasmeen</string>
-            <key>pictureWordEnglish</key>
-            <string>Jasmin</string>
-            <key>letterOffset</key>
+			<key>pictureWordEnglish</key>
+			<string>Jasmin</string>
+			<key>letterOffset</key>
 			<integer>-50</integer>
-            <key>transliterationPosOffsetX</key>
+			<key>transliterationPosOffsetX</key>
 			<integer>-30</integer>
 			<key>transliterationPosOffsetY</key>
 			<integer>20</integer>
 			<key>sound</key>
-			<string>alif.mp3</string>
+			<string>yaa.caf</string>
 			<key>backgroundImage</key>
 			<string>cork.jpg</string>
 			<key>letter</key>
@@ -674,7 +674,7 @@
 			<key>transliteration</key>
 			<string>yaa</string>
 			<key>soundFile</key>
-			<string>test1.wav</string>
+			<string>yasmeen.caf</string>
 		</dict>
 	</array>
 </dict>

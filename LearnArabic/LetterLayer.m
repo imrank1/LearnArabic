@@ -31,7 +31,7 @@
 
 
 -(void)initializeSounds{
-    [[SimpleAudioEngine sharedEngine] preloadEffect:@"alif.mp3"];
+    [[SimpleAudioEngine sharedEngine] preloadEffect:@"arabicLetters.caf"];
 }
 // on "init" you need to initialize your instance
 -(id) init
@@ -39,10 +39,7 @@
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
-        
-        
-        
-        
+
 		letterManager = [[LetterManager alloc]init];
         letterLabel = [CCLabelBMFont labelWithString:[letterManager stringForProp:@"letter"] fntFile:@"fullArabicLeters.fnt" ];
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:
@@ -53,19 +50,17 @@
         backgroundImage = [CCSprite spriteWithFile:[letterManager stringForProp:@"backgroundImage"]];
         CGSize size = [[CCDirector sharedDirector] winSize];
         backgroundImage.position = ccp(size.width/2,size.height/2);
-        //backgroundImage.scale = -2;
-        //backgroundImage.rotation =90;
-       
         picture =  [CCSprite spriteWithSpriteFrameName:[letterManager stringForProp:@"picture"]];
         picture.position = ccp(size.width/2,size.height/2 + 150 );
-//        letterLabel.position =  ccp( size.width /2 , size.height/2  - 30);        
-
 		letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue);        
         [self addChild:backgroundImage z:0];
         [self addChild:picture];
 		[self addChild: letterLabel];
         [self animateTransliteration];
-        [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
+        [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:[letterManager stringForProp:@"sound"]];
+        [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
+        currentCharacterSound = [letterManager stringForProp:@"soundFile"];
+
 	}
 	return self;
 }
@@ -92,6 +87,7 @@
         id scaleout=[CCScaleBy actionWithDuration:.5f scale:2.0f ];
         id scalein= [CCScaleBy actionWithDuration:.5f scale:.5f ];
         id scalceActions = [CCSequence actions:scaleout,scalein, nil];
+        [[SimpleAudioEngine sharedEngine] playEffect:currentCharacterSound];
 		[picture runAction:scalceActions];
     }else{
         touchEndX = location.x;
@@ -122,9 +118,6 @@
 
     CGSize size = [[CCDirector sharedDirector] winSize];
     backgroundImage.position = ccp(size.width/2,size.height/2);
-  //  backgroundImage.scale = -2;
-  //  backgroundImage.rotation =90;
-//    letterLabel.position =  ccp( size.width /2 , size.height/2 -70 );
 
     letterLabel.position =  ccp( size.width /2 , size.height/2  + [letterManager numberForProp:@"letterOffset"].intValue );
     picture.position = ccp(size.width/2,size.height/2 + 150 );
@@ -133,7 +126,9 @@
     [self addChild:letterLabel];
     [self animateTransliteration];
     [self addChild:picture];
-    [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]]; 
+    currentCharacterSound = [letterManager stringForProp:@"soundFile"];
+
+    [[SimpleAudioEngine sharedEngine] playEffect:[letterManager stringForProp:@"sound"]];
 }
 
 
@@ -143,7 +138,7 @@
     [self removeChildByTag:1 cleanup:YES];
 
                                         
-    //rest the array
+    //reset the array
     transliterationLettersLabelArray = nil;
     transliterationLettersLabelArray = [NSMutableArray array];
 
@@ -157,7 +152,7 @@
         CCLabelBMFont *currentLetter = [CCLabelBMFont labelWithString:currentCharString fntFile:@"sketchit.fnt" ];        
         currentLetter.position = ccp(xPosition,(size.height/2)-250);
         [currentLetter setTag:1];
-       [self addChild:currentLetter];
+        [self addChild:currentLetter];
         currentLetter.opacity = 0;
         float timeDelay = .5*index;
         id fadein = [CCFadeIn actionWithDuration:0.5];
@@ -172,11 +167,6 @@
 // on "dealloc" you need to release all your retained objects
 - (void) dealloc
 {
-	// in case you have something to dealloc, do it in this method
-	// in this particular example nothing needs to be released.
-	// cocos2d will automatically release all the children (Label)
-	
-	// don't forget to call "super dealloc"
 	[super dealloc];
 }
 
