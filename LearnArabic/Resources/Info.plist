@@ -38,6 +38,26 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>Default</string>
+				<string>Icon</string>
+				<string>arabicIcon72Black.png</string>
+				<string>Icon@2x.png</string>
+				<string>arabicIcon72Black.png</string>
+				<string>Icon-Small-50.png</string>
+				<string>Icon-Small.png</string>
+				<string>Icon-Small@2x.png</string>
+				<string>arabicIcon72Black.png</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.appcentered.LearnArabic</string>
 	<key>CFBundleInfoDictionaryVersion</key>
