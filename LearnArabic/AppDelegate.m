@@ -18,7 +18,7 @@
 #import "CDAudioManager.h"
 #import "Mixpanel.h"
 
-#define MIXPANEL_TOKEN @"439d57336771854abd1bbed64f363010"
+#define MIXPANEL_TOKEN @"4539f7ca183378b3f116f129f2330019"
 
 @implementation AppDelegate
 
@@ -64,7 +64,8 @@
     [Mixpanel sharedInstanceWithToken:MIXPANEL_TOKEN];
      Mixpanel *mixpanel = [Mixpanel sharedInstance];
     [mixpanel identify:mixpanel.distinctId];
-    [mixpanel.people increment:@"Opened Learn Arabic" by:[NSNumber numberWithInt:1]];
+    [mixpanel track:@"Opened App Event"];
+    [mixpanel.people increment:@"App Opens" by:[NSNumber numberWithInt:1]];
 	//
 	// Create the EAGLView manually
 	//  1. Create a RGB565 format. Alternative: RGBA8
