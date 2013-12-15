@@ -61,6 +61,7 @@
 	// Init the View Controller
 	viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
 	viewController.wantsFullScreenLayout = YES;
+    
     [Mixpanel sharedInstanceWithToken:MIXPANEL_TOKEN];
      Mixpanel *mixpanel = [Mixpanel sharedInstance];
     [mixpanel identify:mixpanel.distinctId];
@@ -108,7 +109,8 @@
 	
 	// make the View Controller a child of the main window
 	[window addSubview: viewController.view];
-	
+    [window setRootViewController:viewController];
+
 	[window makeKeyAndVisible];
 	
 	// Default texture format for PNG/BMP/TIFF/JPEG/GIF images
@@ -119,23 +121,7 @@
 	
 	// Removes the startup flicker
 	[self removeStartupFlicker];
-
-
     [self preloadSounds];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [MainScreen scene]];
 }

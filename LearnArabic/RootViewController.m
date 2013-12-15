@@ -40,6 +40,17 @@
 	[super viewDidLoad];
  }
  */
+- (BOOL)shouldAutorotate{
+    if([[UIDevice currentDevice] orientation] == UIInterfaceOrientationLandscapeLeft ||[[UIDevice currentDevice] orientation] == UIInterfaceOrientationLandscapeRight)
+    {
+        //[[CCDirector sharedDirector] setDeviceOrientation: kCCDeviceOrientationLandscapeRight];
+
+        return NO;
+    }
+    else{
+        return YES;
+    }
+}
 
 
 // Override to allow orientations other than the default portrait orientation.
@@ -59,6 +70,7 @@
 	// Since this method should return YES in at least 1 orientation, 
 	// we return YES only in the Portrait orientation
 	//
+    
 	return ( interfaceOrientation == UIInterfaceOrientationPortrait );
 	
 #elif GAME_AUTOROTATION==kGameAutorotationCCDirector
@@ -75,7 +87,7 @@
 	
 	// Since this method should return YES in at least 1 orientation, 
 	// we return YES only in the Portrait orientation
-	return ( interfaceOrientation == UIInterfaceOrientationPortrait );
+	return NO;
 	
 #elif GAME_AUTOROTATION == kGameAutorotationUIViewController
 	//

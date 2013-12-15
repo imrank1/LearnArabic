@@ -23,7 +23,20 @@
 	<key>CFBundleIcons</key>
 	<dict/>
 	<key>CFBundleIcons~ipad</key>
-	<dict/>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>arabicIcon58Black</string>
+				<string>arabicIcon29Black</string>
+				<string>arabicIcon80Black</string>
+				<string>arabicIcon40Black</string>
+				<string>arabicIcon152Black</string>
+				<string>arabicIcon76Black</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.appcentered.LearnArabic</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -44,5 +57,12 @@
 	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>UIStatusBarHidden~ipad</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 </dict>
 </plist>
