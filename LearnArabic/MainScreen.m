@@ -43,7 +43,7 @@
 	return self;
 }
 -(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-	[[CCDirector sharedDirector] replaceScene:[LetterLayer scene]];
+//	[[CCDirector sharedDirector] replaceScene:[LetterLayer scene]];
 
 }
 

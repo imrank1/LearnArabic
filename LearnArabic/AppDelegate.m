@@ -16,6 +16,10 @@
 //#import "SimpleAudioEngine.h"
 #import "CocosDenshion.h"
 #import "CDAudioManager.h"
+#import "Mixpanel.h"
+
+#define MIXPANEL_TOKEN @"4539f7ca183378b3f116f129f2330019"
+#define MIXPANEL_NO_IFA
 
 @implementation AppDelegate
 
@@ -58,7 +62,12 @@
 	// Init the View Controller
 	viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
 	viewController.wantsFullScreenLayout = YES;
-	
+    
+    [Mixpanel sharedInstanceWithToken:MIXPANEL_TOKEN];
+     Mixpanel *mixpanel = [Mixpanel sharedInstance];
+    [mixpanel identify:mixpanel.distinctId];
+    [mixpanel track:@"Opened App Event"];
+    [mixpanel.people increment:@"App Opens" by:[NSNumber numberWithInt:1]];
 	//
 	// Create the EAGLView manually
 	//  1. Create a RGB565 format. Alternative: RGBA8
@@ -101,7 +110,8 @@
 	
 	// make the View Controller a child of the main window
 	[window addSubview: viewController.view];
-	
+    [window setRootViewController:viewController];
+
 	[window makeKeyAndVisible];
 	
 	// Default texture format for PNG/BMP/TIFF/JPEG/GIF images
@@ -112,23 +122,7 @@
 	
 	// Removes the startup flicker
 	[self removeStartupFlicker];
-
-
     [self preloadSounds];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [MainScreen scene]];
 }
