@@ -395,19 +395,8 @@ static Mixpanel *sharedInstance = nil;
 - (NSString *)defaultDistinctId
 {
     NSString *distinctId = nil;
-#ifdef MIXPANEL_NO_IFA
-    if (NSClassFromString(@"UIDevice")) {
-        distinctId = [[UIDevice currentDevice].identifierForVendor UUIDString];
-    }
-#else
     if (NSClassFromString(@"ASIdentifierManager")) {
         distinctId = [[ASIdentifierManager sharedManager].advertisingIdentifier UUIDString];
-    }
-#endif
-    
-    if (!distinctId) {
-        NSLog(@"%@ error getting device identifier: falling back to uuid", self);
-        distinctId = [[NSUUID UUID] UUIDString];
     }
     if (!distinctId) {
         NSLog(@"%@ error getting uuid: no default distinct id could be generated", self);

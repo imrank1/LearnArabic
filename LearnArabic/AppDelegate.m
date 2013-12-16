@@ -19,6 +19,7 @@
 #import "Mixpanel.h"
 
 #define MIXPANEL_TOKEN @"4539f7ca183378b3f116f129f2330019"
+#define MIXPANEL_NO_IFA
 
 @implementation AppDelegate
 
